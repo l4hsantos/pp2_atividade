@@ -1,78 +1,77 @@
-"Q.1
+#Q.1
 nome = input("Insira o seu nome: ")
 print(nome + "é belo(a)!"):
-"
 
-"Q.2
+
+#Q.2
 n1 = int(input("Digite um valor:"))
 n2 = int(input("Digite outro valor:"))
 soma = n1 + n2
 print(soma):
-"
 
-"Q.3
+
+#Q.3
 preco = float(input("Insira o valor do produto:"))
 qntd = float(input("Insira a quantidade:"))
 total = preco*qntd
 print(total)
-"
 
-"Q.4
+
+#Q.4
 preco = float(input("Insira o preço:"):
 desc = float(input("Insira o desconto atribuído")
 desc2 = desc/100
 total = preco - desc2
-print(total)"
+print(total)
 
-"Q.5
+#Q.5
   salario = float(input("qual o salario:"))
   aumento = float(input("qual o aumento:"))
   resultado = print(salario*aumento)
-"
 
-"Q.6
+#Q.6
 int(print(28*43))
-"
 
-"Q.7
+
+#Q.7
 n1 = float(intput("Insira um valor:")
 n2 = float(input("Insira um valor:")
 n3 = float(input("Insira um valor:")
 soma = n1 + n2 + n3
 media = soma/3
 print(media)
-"
 
-"Q.8
+
+#Q.8
 x = float(input("Insira um número"))
 su = x + 1
 an = x - 1
 print(su) ; print(an)
-"
 
-"Q.9
+
+#Q.9
 n1 = float(input("Insira um número")
 n2 = float(input("Insira um número")
 n3 = float(input("Insira um número")
 n4 = float(input("Insira um número")
 media = (n1*1 + n2*2 + n3*3 + n4*4)/10
 print(media)
-"
 
-"Q.10
+
+#Q.10
 aplicacao = float(input("Insira o valor")
 reajuste = 0.25*aplicacao
 print(reajuste)
-"
 
-"Q.11
+
+#Q.11
 valor = float(input("Insira um valor")
 taxa = float(input("Insira a taxa")/100
 tempo = int(input("Insira o tempo")
 prestacao = valor + (valor * (taxa/100) * tempo)
-"
 
-"Q.12 
+
+#Q.12 
 valor1 = int(input("Insira o primeiro valor")
 valor2 = int(input("Insira o segundo valor")
 soma = valor1 + valor2
@@ -81,6 +80,19 @@ mult = valor1*valor2
 divisao = valor1/valor2
 resto = valor1%valor2
 print(soma) ; print(subt) ; print(mult) ; print(divisao) ; print(resto)
-"
-"Q.13
-"
+
+#Q.13
+base = int(input("Insira o valor da base"))
+h = int(input("Insira o valor da altura")
+2p = print(base*2 + h*2)
+area = print(base*h)
+
+#Q.14
+base = int(print("Insira o valor da base"))
+h = int(print("Insira o valor da altura"))
+area = print((base*h)/2)
+
+#Q.15
+raio = float(input("Insira o valor do raio"))
+2p = print(2*3.14*raio)
+area = print(3.14*(raio**2))
